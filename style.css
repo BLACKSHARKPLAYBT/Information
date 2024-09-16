@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #101014;
 }
 
 
@@ -8,25 +9,34 @@ body {
 .bar {
     height: 76px;
     width: 100%;
-    background-color: black;
+	background-color: #121216;
     top: 0;
     position: sticky;
 	z-index: 2;
 }
 
+.logo {
+	background-image: url("res/logo.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
 label[for="toggle"] {
 	position: absolute;
-    width: 76px;
-	height: 76px;
+    width: 25px;
+	height: 25px;
 	cursor: pointer;
 	color: white;
 	background-image: url("res/menu.png");
 	background-size: cover;
 	background-position: center;
-	background-color: black;
 	user-select: none;
-	right: 0;
-	top: 0;
+	right: 25px;
+	top: 25px;
 	z-index: 3;
 }
 
@@ -54,31 +64,73 @@ input[type="checkbox"]:checked  + label{
 	z-index: 1;
 }
 
-.info a {
+.info > a {
 	font-size: 20px;
 	color: white;
-	width: 100px;
-	height: 45px;
-	margin-top: 50px;
+	width: calc(80% - 10px);
+	height: 60px;
 	display: block;
-	text-align: center;
-	border: 1px solid white;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 25px;
+	border: 1px solid black;
+	margin-left: calc(10% - 10px);
+	border-radius: 15px;
 	text-decoration: none;
 	transition: 0.5s;
 	line-height: 55px;
+	padding-left: 10px;
+	margin-top: 10px;
 }
 
+
 .info :first-child {
-	margin-top: 100px;
+	margin-top: 65px;
 }
+
+.info > a:hover {
+	background-color: #47474a;
+}
+
+
+.info-A {
+	width: 80%;
+	height: 200px;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.info-A p {
+	font-size: 38px;
+	margin-left: 15px;
+	margin-top: 5px;
+	color: white;
+	transition: 0.5s;
+}
+
+.info-button {
+	width: 250px;
+	height: 50px;
+	font-size: 25px;
+	margin-left: 10px;
+	border: 1px solid blue;
+	text-align: center;
+	padding: 0;
+	margin-top: 10px;
+	background-color: #22a8e6;
+	color: black;
+	border-radius: 15px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 50px;
+}
+
+.info-button:hover {
+	background-color: #51c9ff;
+}
+
 /*个人界面*/
 .content {
 	width: 450px;
 	height: 800px;
-	background-color: aqua;
 	margin-top: 8px;
 	margin-left: 10px;
 	padding-top: 10px;
@@ -92,7 +144,8 @@ input[type="checkbox"]:checked  + label{
 .avatar {
 	width: 168px;
 	height: 168px;
-	background-color: black;
+	background-image: url("res/avatar.png");
+	background-size: cover;
     margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
@@ -103,12 +156,13 @@ input[type="checkbox"]:checked  + label{
 .name {
 	font-size: 45px;
 	text-align: center;
+	color: white;
+	margin-top: 8px;
 }
 /*界面*/
 .main {
-	width: 1000px;
-	height: 1000px;
-	background-color: purple;
+	width: 900px;
+	height: 810px;
 	margin-top: 8px;
 	margin-right: 5px;
 	display: flex;
@@ -116,19 +170,23 @@ input[type="checkbox"]:checked  + label{
 	gap: 10px;
 	border: 1px;
 	border-radius: 25px;
+	overflow-y: scroll;
+	align-items: center;
+	justify-content: center;
+	scrollbar-width: none;
 }
+
 .main-1 {
-	width: 300px;
+	width: 800px;
     height: 300px;
 	background-color: red;
 	border-radius: 50px;
-	border: 1px solid darkred;
 	margin: 5px;
 }
 
 .main-2 {
-	width: 400px;
-    height: 200px;
+	width: 800px;
+	height: 300px;
 	background-color: blue;
 	border-radius: 50px;
 	border: 1px solid darkblue;
@@ -136,8 +194,8 @@ input[type="checkbox"]:checked  + label{
 }
 
 .main-3 {
-	width: 200px;
-    height: 200px;
+	width: 800px;
+	height: 300px;
 	background-color: green;
 	border-radius: 50px;
 	border: 1px solid darkgreen;
@@ -146,56 +204,20 @@ input[type="checkbox"]:checked  + label{
 }
 
 .main-4 {
-	width: 200px;
-	height: 200px;
+	width: 800px;
+	height: 300px;
 	background-color: yellow;
 	border-radius: 50px;
 	border: 1px solid darkgoldenrod;
 	margin: 5px;
 }
 
-.main-5 {
-	width: 300px;
-	height: 200px;
-	background-color: pink;
-	border-radius: 50px;
-	border: 1px solid darkred;
-	margin: 5px;
-}
-
-.main-6 {
-	width: 250px;
-	height: 250px;
-	background-color: orange;
-	border-radius: 50px;
-	border: 1px solid darkorange;
-	margin: 5px;
-
-}
-
-.main-7 {
-	width: 270px;
-	height: 170px;
-	background-color: gray;
-	border-radius: 50px;
-	border: 1px solid darkgray;
-	margin: 5px;
-}
-
-.main-8 {
-	width: 600px;
-	height: 150px;
-	background-color: white;
-	border-radius: 50px;
-	border: 1px solid darkgray;
-	margin: 5px;
-}
 /* 底部*/
 .all {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
-	justify-content: space-between;
+	justify-content: space-around;
+	row-gap: 20px;
 }
 
 .footer {
