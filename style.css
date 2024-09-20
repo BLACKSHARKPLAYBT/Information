@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: "apple1";
+    src: url("res/font/PingFang-Regular.ttf")
+}
+
+@font-face {
+	font-family: "blueArchive";
+	src: url("res/font/RoGSanSrfStd-Bd.otf")
+}
+
+@font-face {
+	font-family: "apple2";
+	src: url("res/font/PingFang-Bold.ttf")
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -78,6 +93,7 @@ input[type="checkbox"]:checked  + label{
 	line-height: 55px;
 	padding-left: 10px;
 	margin-top: 10px;
+	font-family: "apple2",serif ;
 }
 
 
@@ -98,12 +114,17 @@ input[type="checkbox"]:checked  + label{
 	margin-left: auto;
 }
 
+.info-A a {
+	font-family: "apple2", serif;
+}
+
 .info-A p {
 	font-size: 38px;
 	margin-left: 15px;
 	margin-top: 5px;
 	color: white;
 	transition: 0.5s;
+	font-family: "apple2", serif;
 }
 
 .info-button {
@@ -128,6 +149,26 @@ input[type="checkbox"]:checked  + label{
 }
 
 /*个人界面*/
+.below p {
+	color: white;
+	font-size: 40px;
+	text-align: left;
+	line-height: 1.8;
+	text-indent: 20px;
+	margin-top: 120px;
+	font-family: "apple2", serif;
+}
+
+.bottom {
+	width: 300px;
+	height: 50px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto auto 80px auto;
+
+}
 .content {
 	width: 450px;
 	height: 800px;
@@ -144,21 +185,33 @@ input[type="checkbox"]:checked  + label{
 .avatar {
 	width: 168px;
 	height: 168px;
-	background-image: url("res/avatar.png");
+	background-image: url("res/avatar.webp");
 	background-size: cover;
-    margin-left: auto;
-	margin-right: auto;
+    margin: 10px auto;
 	padding-top: 10px;
 	border: 2px solid #000000;
 	border-radius: 100px 100px 100px 100px;
 }
 
 .name {
-	font-size: 45px;
+	font-size: 65px;
 	text-align: center;
 	color: white;
-	margin-top: 8px;
+	margin-top: 2px;
+	font-family: apple1 serif;
 }
+
+.below {
+	width: 400px;
+	height: 500px;
+	margin: 20px auto;
+	border-radius: 25px;
+	display: grid;
+}
+
+
+
+
 /*界面*/
 .main {
 	width: 900px;
@@ -176,41 +229,23 @@ input[type="checkbox"]:checked  + label{
 	scrollbar-width: none;
 }
 
-.main-1 {
+.main > div {
 	width: 800px;
     height: 300px;
-	background-color: red;
 	border-radius: 50px;
 	margin: 5px;
+	background-size: cover;
+	padding: 2px;
 }
 
-.main-2 {
-	width: 800px;
-	height: 300px;
-	background-color: blue;
-	border-radius: 50px;
-	border: 1px solid darkblue;
-	margin: 5px;
+.main > div p {
+	color: #85cce7;
+	font-size: 65px;
+	margin-left: 20px;
+	margin-top: 200px;
+	font-family: "blueArchive", bold, serif;
 }
 
-.main-3 {
-	width: 800px;
-	height: 300px;
-	background-color: green;
-	border-radius: 50px;
-	border: 1px solid darkgreen;
-	margin: 5px;
-
-}
-
-.main-4 {
-	width: 800px;
-	height: 300px;
-	background-color: yellow;
-	border-radius: 50px;
-	border: 1px solid darkgoldenrod;
-	margin: 5px;
-}
 
 /* 底部*/
 .all {
@@ -220,10 +255,10 @@ input[type="checkbox"]:checked  + label{
 	row-gap: 20px;
 }
 
-.footer {
+.get {
 	width: 99%;
 	height: 1000px;
-	background-color: lightpink;
+	background-color: black;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
