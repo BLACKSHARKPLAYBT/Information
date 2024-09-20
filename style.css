@@ -1,18 +1,6 @@
 
-@font-face {
-    font-family: "apple1";
-    src: url("res/font/PingFang-Regular.ttf")
-}
 
-@font-face {
-	font-family: "blueArchive";
-	src: url("res/font/RoGSanSrfStd-Bd.otf")
-}
 
-@font-face {
-	font-family: "apple2";
-	src: url("res/font/PingFang-Bold.ttf")
-}
 body {
 	margin: 0;
 	padding: 0;
@@ -93,7 +81,7 @@ input[type="checkbox"]:checked  + label{
 	line-height: 55px;
 	padding-left: 10px;
 	margin-top: 10px;
-	font-family: "apple2",serif ;
+	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
 }
 
 
@@ -115,7 +103,7 @@ input[type="checkbox"]:checked  + label{
 }
 
 .info-A a {
-	font-family: "apple2", serif;
+	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
 }
 
 .info-A p {
@@ -124,7 +112,7 @@ input[type="checkbox"]:checked  + label{
 	margin-top: 5px;
 	color: white;
 	transition: 0.5s;
-	font-family: "apple2", serif;
+	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
 }
 
 .info-button {
@@ -156,7 +144,7 @@ input[type="checkbox"]:checked  + label{
 	line-height: 1.8;
 	text-indent: 20px;
 	margin-top: 120px;
-	font-family: "apple2", serif;
+	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
 }
 
 .bottom {
@@ -198,7 +186,7 @@ input[type="checkbox"]:checked  + label{
 	text-align: center;
 	color: white;
 	margin-top: 2px;
-	font-family: apple1 serif;
+	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
 }
 
 .below {
@@ -243,7 +231,7 @@ input[type="checkbox"]:checked  + label{
 	font-size: 65px;
 	margin-left: 20px;
 	margin-top: 200px;
-	font-family: "blueArchive", bold, serif;
+	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
 }
 
 
