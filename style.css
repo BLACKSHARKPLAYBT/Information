@@ -1,5 +1,5 @@
 
-
+@import url('https://static.zeoseven.com/cn/92/main/result.css');
 
 body {
 	margin: 0;
@@ -81,7 +81,7 @@ input[type="checkbox"]:checked  + label{
 	line-height: 55px;
 	padding-left: 10px;
 	margin-top: 10px;
-	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
+	font-family: "Smiley Sans Oblique", serif;
 }
 
 
@@ -103,7 +103,7 @@ input[type="checkbox"]:checked  + label{
 }
 
 .info-A a {
-	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
+	font-family: "Smiley Sans Oblique", serif;
 }
 
 .info-A p {
@@ -112,7 +112,7 @@ input[type="checkbox"]:checked  + label{
 	margin-top: 5px;
 	color: white;
 	transition: 0.5s;
-	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
+	font-family: "Smiley Sans Oblique", serif;
 }
 
 .info-button {
@@ -144,7 +144,7 @@ input[type="checkbox"]:checked  + label{
 	line-height: 1.8;
 	text-indent: 20px;
 	margin-top: 120px;
-	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
+	font-family: "Smiley Sans Oblique", serif;
 }
 
 .bottom {
@@ -186,7 +186,7 @@ input[type="checkbox"]:checked  + label{
 	text-align: center;
 	color: white;
 	margin-top: 2px;
-	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
+	font-family: "Smiley Sans Oblique", serif;
 }
 
 .below {
@@ -231,7 +231,7 @@ input[type="checkbox"]:checked  + label{
 	font-size: 65px;
 	margin-left: 20px;
 	margin-top: 200px;
-	font-family:'YouSheShaYuFeiTeJianKangTi', serif;
+	font-family: "Smiley Sans Oblique", serif;
 }
 
 
