@@ -1,6 +1,7 @@
 
-@import url('https://static.zeoseven.com/cn/92/main/result.css');
-
+@import url('https://static.zeoseven.com/cn/92/main/result.css');       /*   	font-family: "Smiley Sans Oblique", serif;   */
+@import url('https://static.zeoseven.com/cn/292/main/result.css');   /*  	  font-family: "LXGW WenKai",serif; */
+@import url('https://static.zeoseven.com/cn/204/main/result.css');  /* font-family: "Sarasa Gothic J",serif;      */
 body {
 	margin: 0;
 	padding: 0;
@@ -19,13 +20,14 @@ body {
 }
 
 .logo {
-	background-image: url("res/logo.png");
+	background-image: url("https://s21.ax1x.com/2024/09/20/pAMphfe.png");  /* res/logo.png */
 	background-size: cover;
 	width: 50px;
 	height: 50px;
 	position: absolute;
 	left: 15px;
 	top: 15px;
+	cursor: pointer;
 }
 
 label[for="toggle"] {
@@ -34,7 +36,6 @@ label[for="toggle"] {
 	height: 25px;
 	cursor: pointer;
 	color: white;
-	background-image: url("res/menu.png");
 	background-size: cover;
 	background-position: center;
 	user-select: none;
@@ -43,19 +44,35 @@ label[for="toggle"] {
 	z-index: 3;
 }
 
+label .close {
+	opacity: 0;
+}
+
+label svg {
+	position: absolute;
+	left: auto;
+	top: auto;
+}
+
 input[type="checkbox"] {
 	position: absolute;
-	top: -100px;
+	top: 0;
 	z-index: 3;
+	display: none;
 }
 
 input[type="checkbox"]:checked ~ aside {
 	right: 0;
 }
 
-input[type="checkbox"]:checked  + label{
-	background-image: url("res/close.png");
+input[type="checkbox"]:checked  + label .close {
+	opacity: 1;
 }
+
+input[type="checkbox"]:checked  + label .menu {
+	opacity: 0;
+}
+
 .info {
 	position: fixed;
 	width: 300px;
@@ -143,8 +160,8 @@ input[type="checkbox"]:checked  + label{
 	text-align: left;
 	line-height: 1.8;
 	text-indent: 20px;
-	margin-top: 120px;
-	font-family: "Smiley Sans Oblique", serif;
+	margin-top: 0;
+	font-family: "LXGW WenKai",serif;
 }
 
 .bottom {
@@ -154,7 +171,7 @@ input[type="checkbox"]:checked  + label{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: auto auto 80px auto;
+	margin: auto auto 200px auto;
 
 }
 .content {
@@ -173,7 +190,7 @@ input[type="checkbox"]:checked  + label{
 .avatar {
 	width: 168px;
 	height: 168px;
-	background-image: url("res/avatar.webp");
+	background-image: url("https://s21.ax1x.com/2024/09/20/pAMpcex.webp");  /* res/avatar.webp  */
 	background-size: cover;
     margin: 10px auto;
 	padding-top: 10px;
@@ -226,15 +243,22 @@ input[type="checkbox"]:checked  + label{
 	padding: 2px;
 }
 
-.main > div p {
-	color: #85cce7;
+.main > div a {
 	font-size: 65px;
 	margin-left: 20px;
 	margin-top: 200px;
 	font-family: "Smiley Sans Oblique", serif;
+	display: inline-block;
+	text-decoration: none;
 }
 
+.main > div a:hover {
+	cursor: pointer;
+}
 
+.main-1 a {
+	color: #0068fd;
+}
 /* 底部*/
 .all {
 	display: flex;
@@ -244,10 +268,74 @@ input[type="checkbox"]:checked  + label{
 }
 
 .get {
-	width: 99%;
-	height: 1000px;
-	background-color: black;
+	width: 98%;
+	height: 100%;
+	background-color: #101014;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.test {
+	background-color: whitesmoke;
+	width: 300px;
+	height: 350px;
+	margin-top: 150px;
+	margin-left: 50px;
+	display: grid;
+	border-radius: 15px;
+}
+
+.test a {
+	font-size: 30px;
+	text-align: left;
+	color: black;
+	margin-top: 35px;
+	width: 100%;
+	height: 130px;
+	font-family: "Sarasa Gothic J",serif;
+	font-weight: 1;
+	text-indent: 20px;
+	text-overflow: ellipsis ellipsis;
+	overflow: hidden;
+	text-space: nowrap;
+}
+
+.get div div {
+	width: 300px;
+	height: 220px;
+	position: relative;
+	left: 0;
+	top: 0;
+	border-radius: 15px 15px 0 0;
+}
+
+.get div a {
+	text-decoration: none;
+}
+
+.get div a:hover {
+	text-decoration: underline blue;
+	cursor: pointer;
+
+}
+
+
+/* footer */
+footer {
+	width: 100%;
+	height: 300px;
+}
+
+footer p {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	font-family: "Smiley Sans Oblique", serif;
 }
