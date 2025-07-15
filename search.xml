@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>VRM-PMX的表情参考</title>
+      <link href="/2025/07/15/VRM-PMX%E7%9A%84%E8%A1%A8%E6%83%85%E5%8F%82%E8%80%83/"/>
+      <url>/2025/07/15/VRM-PMX%E7%9A%84%E8%A1%A8%E6%83%85%E5%8F%82%E8%80%83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="VRM-PMX的表情参考"><a href="#VRM-PMX的表情参考" class="headerlink" title="VRM-PMX的表情参考"></a>VRM-PMX的表情参考</h1><p><img src="https://img.textline.top/file/1752540908558_sig_ic2-1740307390501892127-04.jpg" alt="sig_ic2-1740307390501892127-04.jpg"></p><p><img src="https://img.textline.top/file/1752540905037_sig_ic2-1740307390501892127-03.jpg" alt="sig_ic2-1740307390501892127-03.jpg"></p><p><img src="https://img.textline.top/file/1752540909706_sig_ic2-1740307390501892127-02.jpg" alt="sig_ic2-1740307390501892127-02.jpg"></p><p><img src="https://img.textline.top/file/1752540902314_sig_ic2-1740307390501892127-01.jpg" alt="sig_ic2-1740307390501892127-01.jpg"></p><p><img src="https://img.textline.top/file/1752540904075_sig_ic2-1740307379273773248-02.jpg" alt="sig_ic2-1740307379273773248-02.jpg"></p><p><img src="https://img.textline.top/file/1752540910063_sig_ic2-1740307379273773248-01.jpg" alt="sig_ic2-1740307379273773248-01.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>机械革命控制台一直加载解决方案</title>
       <link href="/2025/05/09/%E6%9C%BA%E6%A2%B0%E9%9D%A9%E5%91%BD%E6%8E%A7%E5%88%B6%E5%8F%B0%E4%B8%80%E7%9B%B4%E5%8A%A0%E8%BD%BD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
       <url>/2025/05/09/%E6%9C%BA%E6%A2%B0%E9%9D%A9%E5%91%BD%E6%8E%A7%E5%88%B6%E5%8F%B0%E4%B8%80%E7%9B%B4%E5%8A%A0%E8%BD%BD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
@@ -30,8 +55,8 @@
     
     <entry>
       <title>修改【命令与征服：将军】窗口大小</title>
-      <link href="/2025/03/16/%E4%BF%AE%E6%94%B9%E3%80%90%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D%EF%BC%9A%E5%B0%86%E5%86%9B%E3%80%91%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E5%92%8C%E6%91%84%E5%83%8F%E6%9C%BA/"/>
-      <url>/2025/03/16/%E4%BF%AE%E6%94%B9%E3%80%90%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D%EF%BC%9A%E5%B0%86%E5%86%9B%E3%80%91%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E5%92%8C%E6%91%84%E5%83%8F%E6%9C%BA/</url>
+      <link href="/2025/03/16/%E4%BF%AE%E6%94%B9%E3%80%90%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D%EF%BC%9A%E5%B0%86%E5%86%9B%E3%80%91%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E5%92%8C%E6%91%84%E5%83%8F%E6%9C%BA%20-%20%E5%89%AF%E6%9C%AC/"/>
+      <url>/2025/03/16/%E4%BF%AE%E6%94%B9%E3%80%90%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D%EF%BC%9A%E5%B0%86%E5%86%9B%E3%80%91%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E5%92%8C%E6%91%84%E5%83%8F%E6%9C%BA%20-%20%E5%89%AF%E6%9C%AC/</url>
       
         <content type="html"><![CDATA[<h1 id="修改【命令与征服：将军】窗口大小"><a href="#修改【命令与征服：将军】窗口大小" class="headerlink" title="修改【命令与征服：将军】窗口大小"></a>修改【命令与征服：将军】窗口大小</h1><h2 id="找到文件"><a href="#找到文件" class="headerlink" title="找到文件"></a>找到文件</h2><p>在 此路径<code>C:\Users\你的用户名\Documents\Command and Conquer Generals Zero Hour Data</code>可以找到<strong>Options.ini</strong>文件</p><p>文件内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">AntiAliasing = 1</span><br><span class="line">GameSpyIPAddress = 0.0.0.0</span><br><span class="line">Gamma = 50</span><br><span class="line">IPAddress = 0.0.0.0</span><br><span class="line">IdealStaticGameLOD = High</span><br><span class="line">LanguageFilter = false</span><br><span class="line">MusicVolume = 55</span><br><span class="line">Resolution = 1600 900</span><br><span class="line">SFX3DVolume = 79</span><br><span class="line">SFXVolume = 71</span><br><span class="line">ScrollFactor = 50</span><br><span class="line">SendDelay = no</span><br><span class="line">StaticGameLOD = High</span><br><span class="line">UseAlternateMouse = no</span><br><span class="line">VoiceVolume = 75</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><p><strong>Resolution &#x3D; 1600 900；</strong>是屏幕分辨率，请根据设备修改。</p><p>我修改为<code>Resolution = 1366 768</code></p>]]></content>
       
@@ -363,28 +388,6 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>生活</title>
       <link href="/categories/%E7%94%9F%E6%B4%BB/index.html"/>
       <url>/categories/%E7%94%9F%E6%B4%BB/index.html</url>
@@ -407,9 +410,31 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>项目</title>
       <link href="/categories/%E9%A1%B9%E7%9B%AE/index.html"/>
       <url>/categories/%E9%A1%B9%E7%9B%AE/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
